@@ -1,27 +1,26 @@
 #app{
     text-align: center;
-    
     background-image: url('https://img.freepik.com/fotos-premium/fondo-ano-nuevo-fondo-pantalla-ilustracion-vector-reloj-dorado-brillante_776894-4786.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
     height: 100vh; 
-   overflow: hidden; 
+   overflow: hidden;
+    
 }
-/* .bigCounter{
-    display: inline-block;
-    text-align: center;
-} */
 
 .bigCounter div {
 margin-top: 300px;
 display: inline-block;
 font-size: 80px;
 line-height: 100px;
-background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
+background-color: rgba(0, 0, 0, 0,5); /* Fondo negro semi-transparente */
 color:whitesmoke;
 padding: 40px;
 margin: 15px;
 border: 2px solid white;
 border-radius: 10px ;
+}
+div .one , div .two, div .three,  div .four {
+    color: white;
 }

@@ -12,8 +12,8 @@ function SimpleCounter (props){
         <div className="bigCounter">
             <div className="calendar"><FontAwesomeIcon icon={['far', 'clock']} /></div>
             <div className="four">{props.digitFour}</div>
-            <div className="three">{props.digitThree}</div>
-            <div className="two">{props.digitTwo}</div>
+            <div className="three">{props.digitThree % 10}</div>
+            <div className="two">{props.digitTwo % 10}</div>
             <div className="one">{props.digitOne % 10}</div>
         </div>
     )
